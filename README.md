@@ -6,7 +6,7 @@ For the .str files I used mfaudio to create them
 They are Uncompressed PCM with 48000 hz frequency and 200 interleave
 
 ## Known Issues
-Singleplayer and local multiplayer remix mode are broken. This is due to the fact that I repurposed the remix mode song list so the game wont crash when there is more than 6 songs in one arena
+Singleplayer and local multiplayer remix mode are will crash.
 
 Load times are longer
 
