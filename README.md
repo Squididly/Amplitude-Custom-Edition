@@ -6,7 +6,7 @@ For the .str files I used mfaudio to create them
 They are Uncompressed PCM with 48000 hz frequency and 200 interleave
 
 ## Songs Added
-Hatsune Miku - Ieven Polkka
+Otomania ft. Hatsune Miku - Ieven Polkka
 
 ## Known Issues
 Singleplayer and local multiplayer remix mode will crash.
