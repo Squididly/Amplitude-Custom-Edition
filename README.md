@@ -9,7 +9,7 @@ They are Uncompressed PCM with 48000 hz frequency and 200 interleave
 Hatsune Miku - Ieven Polkka
 
 ## Known Issues
-Singleplayer and local multiplayer remix mode are will crash.
+Singleplayer and local multiplayer remix mode will crash.
 
 Load times are longer
 
