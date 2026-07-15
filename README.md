@@ -10,7 +10,7 @@ Singleplayer and local multiplayer remix mode are broken. This is due to the fac
 
 Load times are longer
 
-
+Selecting Training on arena select will crash the game
 
 
 
