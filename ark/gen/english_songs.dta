@@ -763,6 +763,34 @@
    'POD_BIO'
    "Hailing from San Diego, CA, P.O.D. took the world by storm with their breakthrough triple-platinum album 'Satellite'.  Adding more melody and tighter songwriting to their hardcore roots, 'Satellite' spawned hit singles including °Alive° and °Youth Of The Nation°.  Electronica pioneers The Crystal Method bring new textures to this rock anthem in this remix."
 )
+([ 0] 'IEVENPOLKKA_TITLE' 'Ieven Polkka')
+(
+   [ 0]
+   'IEVENPOLKKA_ARTIST'
+   "Hatsune Miku"
+)
+(
+   [ 0]
+   'IEVENPOLKKA_ARTIST_SHORT'
+   "Hatsune Miku"
+)
+(
+   [ 0]
+   'IEVENPOLKKA_ARTIST_SHORTEST'
+   "Hatsune Miku"
+)
+(
+   [ 0]
+   'IEVENPOLKKA_BIO'
+   "Miku Dayo"
+)
+([ 0] 'IEVENPOLKKA_GENRE' 'Vocaloid')
+(
+   [42 0]
+   'IEVENPOLKKA_LABEL'
+   "Crypton Future Media"
+)
+([ 0] 'IEVENPOLKKA_WWW' 'ec.crypton.co.jp')
 ([239 0] 'POD_GENRE' 'ElectroRapRock')
 (
    [240 0]

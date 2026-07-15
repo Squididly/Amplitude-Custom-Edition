@@ -65,6 +65,7 @@
    "./default_particle_arms_config.txt"
    "./default_game_config.txt"
    "./songs/pod_demo/pod_demo.txt"
+   "./songs/ievenpolkka/ievenpolkka.txt"
 }
 [1 0]
 (
@@ -6543,6 +6544,316 @@
                ([376 5] 1300 2600 4000)
             )
             ([377 5] 'id' 65)
+         )
+         (
+            [51 5]
+            'IEVENPOLKKA'
+            ([1 66] 'midi_file' 'ievenpolkka_g.mid')
+            ([2 66] 'remix_midi_file' 'ievenpolkka_r.mid')
+            ([3 66] 'tunnel_scale' 0.6)
+            ([5 66] 'bpm' 119)
+            ([6 66] 'song_bars' 60)
+            ([7 66] 'remix_song_bars' 72)
+            ([8 66] 'intro_bars' 4)
+            (
+               [9 66]
+               'enable_order'
+               ([9 66] 1 2 3 4 5 6)
+            )
+            ([13 66] 'section_start_bars' 21 45)
+            ([14 66] 'remix_section_start_bars' 1 9 17 25 33 41 49 57 65)
+            ([15 66] 'remix_section_names' 'a' 'b' 'c' 'd' 'e' 'f' 'g' 'h' 'i')
+            (
+               [16 66]
+               'remix_section_links'
+               ([16 66] 'a' 'c' 'g')
+               ([16 66] 'b' 'd' 'f' 'h')
+               ([16 66] 'e')
+               ([16 66] 'i')
+            )
+            ([17 66] 'remix_section_labels' 'VERSE 1' 'CHORUS' 'BRIDGE' 'VERSE 2')
+            ([21 66] 'background_tracks')
+            (
+               [28 66]
+               'mixer_overrides'
+               (
+                  [29 66]
+                  ([29 66] 'channel' 1)
+                  ([29 66] 'mixer_low_volumes' 127 127 120 110 100 90)
+               )
+               (
+                  [30 66]
+                  ([30 66] 'channel' 2)
+                  ([30 66] 'mixer_low_volumes' 127 120 110 100 85 75)
+               )
+               (
+                  [31 66]
+                  ([31 66] 'channel' 3)
+                  ([31 66] 'mixer_low_volumes' 127 127 110 100 85 70)
+               )
+               (
+                  [32 66]
+                  ([32 66] 'channel' 4)
+                  ([32 66] 'mixer_low_volumes' 127 120 110 105 100 90)
+               )
+               (
+                  [33 66]
+                  ([33 66] 'channel' 5)
+                  ([33 66] 'mixer_low_volumes' 127 120 110 100 100 95)
+               )
+               (
+                  [34 66]
+                  ([34 66] 'channel' 6)
+                  ([34 66] 'mixer_low_volumes' 127 120 110 100 100 90)
+               )
+               (
+                  [35 66]
+                  ([35 66] 'channel' 7)
+                  ([35 66] 'mixer_low_volumes' 127 127 127 127 127 127)
+               )
+            )
+            (
+               [40 66]
+               'duel_mix_volumes'
+               (
+                  [41 66]
+                  ([41 66] 'channel' 1)
+                  ([41 66] 'volumes' 127 50)
+               )
+               (
+                  [42 66]
+                  ([42 66] 'channel' 2)
+                  ([42 66] 'volumes' 127 50)
+               )
+               (
+                  [43 66]
+                  ([43 66] 'channel' 3)
+                  ([43 66] 'volumes' 127 50)
+               )
+               (
+                  [44 66]
+                  ([44 66] 'channel' 4)
+                  ([44 66] 'volumes' 127 50)
+               )
+               (
+                  [45 66]
+                  ([45 66] 'channel' 5)
+                  ([45 66] 'volumes' 127 50)
+               )
+               (
+                  [46 66]
+                  ([46 66] 'channel' 6)
+                  ([46 66] 'volumes' 127 50)
+               )
+               (
+                  [47 66]
+                  ([47 66] 'channel' 7)
+                  ([47 66] 'volumes' 127 50)
+               )
+            )
+            (
+               [50 66]
+               'effects'
+               (
+                  [51 66]
+                  'bus_1'
+                  (
+                     [55 66]
+                     'filter'
+                     ([56 66] 'type' 0)
+                     ([57 66] 'resonance' 0.75)
+                  )
+                  ([59 66] 'soft_fx_output' 2)
+                  ([60 66] 'fx_bus_to_softfx' 0)
+                  ([61 66] 'fx_bus_to_corefx' 1)
+                  ([68 66] 'mode' 8)
+                  ([74 66] 'depth_left' 90)
+                  ([75 66] 'depth_right' 90)
+                  ([77 66] 'delay' 50)
+                  ([78 66] 'feedback' 60)
+               )
+               (
+                  [81 66]
+                  'bus_2'
+                  ([82 66] 'mode' 4)
+                  ([83 66] 'depth_left' 68)
+                  ([84 66] 'depth_right' 68)
+                  ([85 66] 'delay' 25)
+                  ([86 66] 'feedback' 20)
+               )
+               (
+                  [88 66]
+                  'remix_bus_2'
+                  ([89 66] 'mode' 8)
+                  ([90 66] 'depth_left' 100)
+                  ([91 66] 'depth_right' 100)
+                  ([92 66] 'delay' 82)
+                  ([93 66] 'feedback' 35)
+               )
+            )
+            ([97 66] 'freestyle_effects_bus' 1)
+            ([98 66] 'remix_effects_bus' 2)
+            ([99 66] 'remix_effects_name' 'REMIX_FX_DELAY')
+            ([101 66] 'duel_track_order' 6 4 5 4 1 6 4 5 4)
+            (
+               [103 66]
+               'duel_patterns'
+               (
+                  [104 66]
+                  (
+                     [105 66]
+                     1
+                     ([107 66] 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...')
+                  )
+                  (
+                     [113 66]
+                     9
+                     ([115 66] 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...')
+                  )
+                  (
+                     [121 66]
+                     17
+                     ([123 66] 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...')
+                  )
+                  (
+                     [129 66]
+                     25
+                     ([131 66] 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...')
+                  )
+                  (
+                     [137 66]
+                     33
+                     ([139 66] 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...')
+                  )
+                  (
+                     [145 66]
+                     41
+                     ([147 66] 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...')
+                  )
+                  (
+                     [153 66]
+                     49
+                     ([155 66] 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...')
+                  )
+                  (
+                     [161 66]
+                     57
+                     ([163 66] 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...' 'x.x.x.x.x.x.x.x.x.x.x.x.x.x.x...')
+                  )
+                  (
+                     [169 66]
+                     65
+                     ([171 66] 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...')
+                  )
+               )
+               (
+                  [179 66]
+                  (
+                     [180 66]
+                     1
+                     ([182 66] 'xxxx.xxxxxxx.xxxxxxx.xxxxxxxx...' '.x..x..x.x..x..x.x..x..xxxxxx...' '..x...x...x...x...x...x..xxxx...')
+                  )
+                  (
+                     [188 66]
+                     9
+                     ([190 66] 'x.x.x.x.x.x.x.x.x.x.x.x.xxxxx...' '.x.x.x.x.x.x.x.x.x.x.x.x.xxxx...' 'x.x.x.x.x.x.x.x.x.x.x.x.xxxxx...')
+                  )
+                  (
+                     [196 66]
+                     17
+                     ([198 66] 'x.x.x.x.x.x.x.x.x.x.x.x.xxxxx...' '.xxx.xxx.xxx.xxx.xxx.xxx.xxxx...' 'x.x.x.x.x.x.x.x.x.x.x.x.xxxxx...')
+                  )
+                  (
+                     [204 66]
+                     25
+                     ([206 66] 'xxx.xxx.xxx.xxx.xxx.xxx.xxxxx...' '.x.x.x.x.x.x.x.x.x.x.x.x.xxxx...' 'xxx.xxx.xxx.xxx.xxx.xxx.xxxxx...')
+                  )
+                  (
+                     [212 66]
+                     33
+                     ([214 66] 'xxx.xxx.xxx.xxx.xxx.xxx.xxxxx...' '.xxx.xxx.xxx.xxx.xxx.xxx.xxxx...' 'xxx.xxx.xxx.xxx.xxx.xxx.xxxxx...')
+                  )
+                  (
+                     [220 66]
+                     41
+                     ([222 66] 'xxx.xxx.xxx.xxx.xxx.xxx.xxxxx...' 'x.xxx.xxx.xxx.xxx.xxx.xxxxxxx...' 'xxx.xxx.xxx.xxx.xxx.xxx.xxxxx...')
+                  )
+                  (
+                     [228 66]
+                     49
+                     ([230 66] 'xxx.xxx.xxx.xxx.xxx.xxx.xxxxx...' 'xx.xxx.xxx.xxx.xxx.xxx.xxxxxx...' 'xxx.xxx.xxx.xxx.xxx.xxx.xxxxx...')
+                  )
+                  (
+                     [236 66]
+                     57
+                     ([238 66] 'xxx.xxx.xxx.xxx.xxx.xxx.xxxxx...' 'xx.xxx.xxx.xxx.xxx.xxx.xxxxxx...' 'x.xxx.xxx.xxx.xxx.xxx.xxxxxxx...')
+                  )
+                  (
+                     [244 66]
+                     65
+                     ([246 66] 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...')
+                  )
+               )
+               (
+                  [254 66]
+                  (
+                     [255 66]
+                     1
+                     ([257 66] 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...')
+                  )
+                  (
+                     [263 66]
+                     9
+                     ([265 66] 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...')
+                  )
+                  (
+                     [271 66]
+                     17
+                     ([273 66] 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...')
+                  )
+                  (
+                     [279 66]
+                     25
+                     ([281 66] 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...')
+                  )
+                  (
+                     [287 66]
+                     33
+                     ([289 66] 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...')
+                  )
+                  (
+                     [295 66]
+                     41
+                     ([297 66] 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...')
+                  )
+                  (
+                     [303 66]
+                     49
+                     ([305 66] 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...')
+                  )
+                  (
+                     [311 66]
+                     57
+                     ([313 66] 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...')
+                  )
+                  (
+                     [319 66]
+                     65
+                     ([321 66] 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...' 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx...')
+                  )
+               )
+            )
+            ([370 5] 'arena_path' 'ConstructoP4')
+            ([371 5] 'duel' 1)
+            (
+               [372 5]
+               'score_goal'
+               ([373 5] 250 700 99999)
+               ([374 5] 550 750 1500)
+               ([375 5] 750 1500 3000)
+               ([376 5] 1300 2600 4000)
+            )
+            ([377 5] 'id' 66)
          )
          (
             [90 5]
