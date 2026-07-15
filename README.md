@@ -12,5 +12,7 @@ Load times are longer
 
 Selecting Training on arena select will crash the game
 
+Exiting a song will go back to the Title Screen
+
 
 
