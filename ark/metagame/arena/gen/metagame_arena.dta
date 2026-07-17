@@ -320,7 +320,7 @@
       1200
       ([343 0] 'animate_to' 'Transition.view' 20800 500 0)
       1400
-      ([344 0] 'meta_change_screen' 's_r_sel_song')
+      ([344 0] 'meta_change_screen' 's_g_sel_song')
       200
       ([347 0] 'enter_tube')
       1000
@@ -474,7 +474,7 @@
       [491 0]
       'conditions'
       ([491 0] 'screen' 'solotut2soloarena')
-      ([491 0] 'old_screen' 's_r_sel_song')
+      ([491 0] 'old_screen' 's_g_sel_song')
    )
    (
       [492 0]
