@@ -1404,7 +1404,7 @@
       1300
       ([1401 0] 'animate_to' 'Transition.view' 12900 700 0)
       2000
-      ([1402 0] 'meta_change_screen' 's_r_sel_song')
+      ([1402 0] 'meta_change_screen' 's_g_sel_song')
    )
 )
 (
